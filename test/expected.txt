@@ -2,6 +2,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || The given file name [ ] is not a valid file name!
 || Exiting Address Book... Good bye!
@@ -11,6 +12,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || The given file name [directoryThatDoesNotExist/valid.filename] is not a valid file name!
 || Exiting Address Book... Good bye!
@@ -20,6 +22,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || The given file name [.noFilename] is not a valid file name!
 || Exiting Address Book... Good bye!
@@ -29,6 +32,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || The given file name [data/notRegularFile.txt] is not a valid file name!
 || Exiting Address Book... Good bye!
@@ -38,6 +42,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || Enter command: || [Command entered:exit]
 || Exiting Address Book... Good bye!
@@ -47,6 +52,7 @@
 || ===================================================
 || AddessBook Level 1 - Version 1.0
 || Welcome to your Address Book!
+|| Type 'help' to view all available commands!
 || ===================================================
 || Using default storage file : addressbook.txt
 || Enter command: || [Command entered:  sfdfd]

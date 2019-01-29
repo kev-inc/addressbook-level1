@@ -89,6 +89,7 @@ public class AddressBook {
     private static final String MESSAGE_PERSONS_FOUND_OVERVIEW = "%1$d persons found!";
     private static final String MESSAGE_STORAGE_FILE_CREATED = "Created new empty storage file: %1$s";
     private static final String MESSAGE_WELCOME = "Welcome to your Address Book!";
+    private static final String MESSAGE_WELCOME_HELP = "Type 'help' to view all available commands!";
     private static final String MESSAGE_USING_DEFAULT_FILE = "Using default storage file : " + DEFAULT_STORAGE_FILEPATH;
 
     // These are the prefix strings to define the data type of a command parameter
@@ -210,6 +211,11 @@ public class AddressBook {
         showWelcomeMessage();
         processProgramArgs(args);
         loadDataFromStorage();
+        runProgram();
+        return;
+    }
+
+    private static void runProgram() {
         while (true) {
             String userCommand = getUserInput();
             echoUserCommand(userCommand);
@@ -227,7 +233,7 @@ public class AddressBook {
      */
 
     private static void showWelcomeMessage() {
-        showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER);
+        showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, MESSAGE_WELCOME_HELP, DIVIDER);
     }
 
     private static void showResultToUser(String result) {
